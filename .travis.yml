@@ -21,8 +21,8 @@ script:
   - docker build -t api-feed ./udagram-api-feed
   - docker tag api-feed teodorchakarov/api-feed:v1
 
-  - docker build -t udaciy-frontend ./udagram-frontend
-  - docker tag udaciy-frontend teodorchakarov/udaciy-frontend:v1
+  - docker build -t udacity-frontend ./udagram-frontend
+  - docker tag udacity-frontend teodorchakarov/udacity-frontend:v1
 
   - docker build -t reverse_proxy ./udagram-reverseproxy
   - docker tag reverse_proxy teodorchakarov/reverse_proxy:v1
