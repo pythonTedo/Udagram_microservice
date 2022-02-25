@@ -1,0 +1,12 @@
+apiVersion: v1
+kind: ConfigMap
+data:
+  AWS_BUCKET: bucket-8070-7960-4586
+  AWS_PROFILE: default
+  AWS_REGION: us-east-1
+  JWT_SECRET: helloworld
+  POSTGRES_DATABASE: tedo-db
+  POSTGRES_HOST: tedo-db.cexgv6co77e0.us-east-1.rds.amazonaws.com
+  URL: http://localhost:8100
+metadata:
+  name: env-config
